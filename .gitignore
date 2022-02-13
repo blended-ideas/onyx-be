@@ -58,3 +58,6 @@ jspm_packages
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Lint Cache
+.eslintcache
