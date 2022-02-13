@@ -22,7 +22,8 @@
     "postpublish": "git push --tags",
     "deploy": "sh ./deploy.sh",
     "docs": "apidoc -i src -o docs",
-    "postdocs": "open-cli docs/index.html"
+    "postdocs": "open-cli docs/index.html",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -85,7 +86,7 @@
     "apidoc": "^0.50.4",
     "chai": "^4.1.0",
     "chai-as-promised": "^7.1.1",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3 .0.0",
     "eslint": "^8.9.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
@@ -93,7 +94,7 @@
     "mocha": "^9.2.0",
     "nodemon": "^2.0.1",
     "nyc": "^15.1.0",
-    "opn-cli": "^5.0.0",
+    "open-cli": "^7.0.1",
     "sinon": "^13.0.1",
     "sinon-chai": "^3.0.0",
     "supertest": "^6.1.3"
